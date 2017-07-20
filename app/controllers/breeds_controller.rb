@@ -8,4 +8,9 @@ class BreedsController < ApplicationController
     @breed = Breed.new
     @cats = @breed.get_cats
   end
+
+  def show
+
+  end
+
 end

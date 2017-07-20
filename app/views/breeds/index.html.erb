@@ -2,7 +2,7 @@
   <% @cats.each do |cat| %>
     <div class="cat">
       <%= cat['name'] %><br>
-      <%= cat['history'] %>
+      <%= image_tag cat['image'] %>
     </div>
   <% end %>
 </div>
