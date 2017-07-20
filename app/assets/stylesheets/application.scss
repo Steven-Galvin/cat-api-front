@@ -28,3 +28,19 @@
     margin: 7px;
   }
 }
+
+.cats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .cat {
+    flex-basis: 30%;
+    height: 500px;
+    margin: 7px;
+    padding: 10px;
+    border: 1px solid rgba(black, 0.5);
+    box-shadow: 1px 1px 3px lighten(black, 20%);
+    border-radius: 5px;
+    background-color: lighten(mintcream, 1%);
+  }
+}

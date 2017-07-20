@@ -1,1 +1,8 @@
-<%= @cats %>
+<div class="cats">
+  <% @cats.each do |cat| %>
+    <div class="cat">
+      <%= cat['name'] %><br>
+      <%= cat['history'] %>
+    </div>
+  <% end %>
+</div>
