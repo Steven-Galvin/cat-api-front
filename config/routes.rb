@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   # root to: 'pages#index'
   #
-  # get '/oauth/callback', to: 'sessions#create'
-  root to: 'breeds#index'
+  # get '/oauth/callbrails roack', to: 'sessions#create'
+  root to: 'pages#index'
   resources :breeds
 end
